@@ -1,0 +1,26 @@
+Downloaded GITLFS
+
+Installed Git-lfs using sudo apt install git-lfs
+
+git clone https://github.com/mozilla/DeepSpeech
+
+virtualenv -p python3 $HOME/tmp/deepspeech-train-venv/ -- cREATED nEWE WNVIRONMENT
+
+aCTIVATED NEW ENVIRONMENT - source $HOME/tmp/deepspeech-train-venv/bin/activate
+
+cd DeepSpeech
+pip3 install -r requirements.txt - iNTALLED THE REQUIREMENTGS
+
+pip3 install $(python3 util/taskcluster.py --decoder) - iNATLLED DS-CTCDECODER
+
+inSTALLLED TENSERFLOW FOR gpu
+pip3 uninstall tensorflow
+pip3 install 'tensorflow-gpu==1.14.0'
+
+EXTRATCED DATA AND STORED IN DEEPSEARC/deepsearchdata FOLDER
+
+
+
+
+
+ 
