@@ -1,0 +1,4 @@
+source myenvi/bin/activate
+pip install moviepy
+pip install pygame
+Installed Spyder-3 using sudo apt-get install spyder3
