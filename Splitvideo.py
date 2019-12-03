@@ -36,5 +36,5 @@ def splitvideofile(VideoFileLocation,DestinationLocation):
                 cropclip = VideoFileClip(VideoFileLocation).subclip(i+0.05,i+0.05+step+0.05)   
                 cropclip.write_videofile(DestinationLocation+'/'+''+ a+''+'.mp4')
 
-splitvideofile('T:/mialab/users/Chaitu/new_project/results/Test4/Test4.mp4','T:/mialab/users/Chaitu/new_project/results/ZoomNew')            
+splitvideofile('FileLocation,DestinationLocation')            
 
