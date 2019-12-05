@@ -1,0 +1,1 @@
+for u in `ls FolderName/*|grep -v Thum`; do python sep_video.py $u --model full --duration_mult 4 --out ../OUTFolderName/; done;
